@@ -1,7 +1,7 @@
 package main
 
 import (
-	day_three "SANKET7738/aoc_23/day3"
+	day_four "SANKET7738/aoc_23/day4"
 )
 
 type Problem interface {
@@ -10,6 +10,6 @@ type Problem interface {
 
 func main() {
 	var problem Problem
-	problem = day_three.Problem{}
+	problem = day_four.Problem{}
 	problem.Solve()
 }
